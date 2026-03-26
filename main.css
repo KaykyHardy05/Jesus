@@ -1,0 +1,29 @@
+.title{
+    margin-bottom: 10px;
+
+}
+#Main_Text{
+    font-size: 32px;
+    font-family: "Bungee", sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+#Bloco_de_interesse{
+    margin-left: 75px;
+    padding: 15px;
+    width: 250px;
+    border: 1px dotted  rgb(23, 7, 39);
+}
+
+.Blocos_de_selecao{
+    border: 2px solid  rgb(23, 7, 39);
+    margin: 15px 5px 15px 5px;
+    padding: 25px;
+}
+
+
+
+#W_space1{
+    padding-bottom: 100px;
+}
