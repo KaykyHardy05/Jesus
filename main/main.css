@@ -8,22 +8,36 @@
     text-transform: uppercase;
     font-weight: bolder;
     text-align: center;
+    color: rgb(255,255,255);
+    text-shadow: 1px 1px rgb(0,0,0),-1px 1px rgb(0,0,0),-1px -1px rgb(0,0,0), 1px -1px rgb(0,0,0),
+    0 0 15px rgba(0,0,0,.75), 0 0 10px rgba(0,0,0,.75);
 }
 
 #Bloco_de_interesse{
     margin-left: 150px;
     padding: 25px;
     width: 450px;
-    border: 2px dotted  rgb(23, 7, 39);
+    background: url(Imagens/bg_list_magumohara.jpg);
 }
 
 .Blocos_de_selecao{
-    border: 4px solid  rgb(23, 7, 39);
+    border: 1px solid  rgb(255, 255, 255);
     border-radius:7px;
     padding: 60px;
     font-family: "Bungee", sans-serif;
     text-transform: uppercase;
+    background:  url(Imagens/UA_School.png) rgba(255, 255, 255,0.2);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 50% 100%;
+    overflow: hidden;
+    display: flex;
 }
+
+.Selecao_Interna{
+    margin: 60px;
+}
+
 
 #ul1{
     display:flex;
@@ -34,6 +48,11 @@
 }
 
 
+
+
 #W_space1{
     padding-bottom: 100px;
+}
+#W_space2{
+    padding-bottom: 300px;
 }
